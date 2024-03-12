@@ -18,9 +18,12 @@ git clone https://github.com/Sai-prudhvi1483/MediawikiApp.git
 cd MediaWiki/Terraform/
 
 # Run the Terraform script
-terraform init 
+terraform init
+
 terraform validate
+
 terraform plan
+
 terraform apply
 
 You can access the application at http://{publicip}:30163/wiki
